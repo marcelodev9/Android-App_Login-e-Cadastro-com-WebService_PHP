@@ -85,6 +85,9 @@ public class LoginActivity extends AppCompatActivity {
                     else if(jsonObject.getInt("status_requisicao") == 2){
                         Toast.makeText(getApplicationContext(), "Celular e/ou senha invalido(s)", Toast.LENGTH_LONG).show();
                     }
+                  else{
+                        Toast.makeText(getApplicationContext(), jsonObject.getString("msg"), Toast.LENGTH_LONG).show();
+                    }
                 }
             @Override
             public void Error() {
