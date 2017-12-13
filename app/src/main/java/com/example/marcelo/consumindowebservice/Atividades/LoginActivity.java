@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.example.marcelo.consumindowebservice.RequestHelper;
 import com.example.marcelo.consumindowebservice.Constantes;
 import com.example.marcelo.consumindowebservice.R;
